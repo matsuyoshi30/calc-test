@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+:root {
+    --base-font: 'Roboto', sans-serif;
+}
+
 body {
+    font-family: var(--base-font);
     display: flex;
 }
 
