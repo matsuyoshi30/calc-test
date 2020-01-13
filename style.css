@@ -1,0 +1,95 @@
+body {
+    display: flex;
+}
+
+#result {
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    left: 50px;
+    width: 120px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: auto;
+    vertical-align: middle;
+}
+
+/* board's container */
+#board {
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+#expr, #answer {
+    font-size: 40px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+/* color-button */
+
+.color-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    color: white;
+    background:  blue;
+}
+
+.color-button:active {
+    padding-top: 10px;
+    border: 1px solid green;
+    background-color: lightblue;
+    color: white;
+    box-shadow: inset 0px 0px 2px purple;
+}
+
+/* normal-button */
+
+.normal-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    color: white;
+    background: gray;
+}
+
+.normal-button:active {
+    padding-top: 10px;
+    border: 1px solid grep;
+    background-color: lightgrey;
+    color: white;
+    box-shadow: inset 0px 0px 2px purple;
+}
+
+/* clear-button */
+
+.clear-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    color: white;
+    background:  red;
+}
+
+.clear-button:active {
+    padding-top: 10px;
+    border: 1px solid red;
+    background-color: lightcoral;
+    color: white;
+    box-shadow: inset 0px 0px 2px purple;
+}
